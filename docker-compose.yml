@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: SuperStoreDB
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  etl:
+    build: 
+      context: ./etl
+      dockerfile: Dockerfile
+    environment:
+      DB_HOST: db
+      DB_NAME: SuperStoreDB
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+    volumes:
+      - ./data:/data
+    depends_on:
+      - db
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+
+  jupyterlab:
+    image: jupyter/scipy-notebook
+    volumes:
+      - ./data:/home/jovyan/work/data
+      - ./notebooks:/home/jovyan/work
+    ports:
+      - "8888:8888"
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+    command: start.sh jupyter lab --ip=0.0.0.0 --port=8888 --no-browser
+    depends_on:
+      - db
+
+volumes:
+  pgdata:
