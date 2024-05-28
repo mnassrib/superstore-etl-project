@@ -38,19 +38,19 @@ superstore-project/
     ```bash
     docker-compose up --build
     ```
----
-    - Pour savoir les noms des conteneurs Docker en cours d'exécution
+    ---
+        - Pour savoir les noms des conteneurs Docker en cours d'exécution
 
-    ```bash
-    docker-compose ps
-    ```
+        ```bash
+        docker-compose ps
+        ```
 
-    - Pour vérifier les logs d'un conteneur
+        - Pour vérifier les logs d'un conteneur
 
-    ```bash
-    docker logs "nom du conteneur"
-    ```
----
+        ```bash
+        docker logs "nom du conteneur"
+        ```
+    ---
 
 3. Une fois les conteneurs démarrés, vous pourrez accéder aux services suivants dans votre navigateur web :
 
