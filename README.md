@@ -60,7 +60,6 @@ superstore-project/
 ## Contenu du Projet
 
 - **data/** : Contient le fichier CSV contenant les données de vente.
-- **docker-compose.yml** : Fichier de configuration Docker définissant les services et leurs paramètres.
 - **etl/** : Contient le script ETL et son Dockerfile.
     - `Dockerfile` : Fichier Dockerfile pour construire l'image Docker du service ETL.
     - `etl.py` : Script Python exécutant le processus ETL.
@@ -68,23 +67,24 @@ superstore-project/
 - **images/** : Contient les images utilisées dans le README.md.
     - `erd.png` : Entity Relationship Diagram (ERD) illustrant la structure des tables de la base de données SuperStore.
 - **notebooks/** : Pour contenir les fichiers notebooks pour les analyses et visualisations des données. 
+- **docker-compose.yml** : Fichier de configuration Docker définissant les services et leurs paramètres.
 - **README.md** : Ce fichier, fournissant des instructions sur la configuration et l'utilisation du projet.
 
 ## Utilisation
 
 1. Connectez-vous à pgAdmin avec les informations d'identification suivantes :
-    - Email : `admin@admin.com`
-    - Mot de passe : `admin`
+    - Email : adresse émail choisie pour votre pgAdmin
+    - Mot de passe : mot de passe choisi pour pgAdmin
     - Enregistrer un nouveau serveur :
         - Clic droit sur "Servers" > "Register" > "Server..."
     - Configurer le serveur :
-        - Onglet "General" : Name = PostgreSQL
+        - Onglet "General" : Name = nom choisi pour votre serveur, exemple : PostgreSQL
     - Onglet "Connection" :
-        - Host name/address = db
+        - Host name/address = nom choisi pour votre service postgres : voir **docker-compose.yml**
         - Port = 5432
-        - Maintenance database = SuperStoreDB
-        - Username = postgres
-        - Password = postgres
+        - Maintenance database = nom choisi pour votre base de données
+        - Username = nom choisi pour votre user
+        - Password = mot de passe choisi pour votre user
         - Save password? = activé
     - Cliquez sur "Save"
 
