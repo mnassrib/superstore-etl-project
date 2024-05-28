@@ -3,11 +3,13 @@ import os
 import time
 
 # Lire les variables d'environnement
-db_host = os.getenv('DB_HOST', 'db')
-db_name = os.getenv('DB_NAME', 'SuperStoreDB')
-db_user = os.getenv('DB_USER', 'postgres')
-db_password = os.getenv('DB_PASSWORD', 'postgres')
-csv_file_path = '/data/SuperStoreData.csv'  # Mettez à jour le chemin du fichier CSV si nécessaire
+db_host = os.getenv('DB_HOST')
+db_name = os.getenv('DB_NAME')
+db_user = os.getenv('DB_USER')
+db_password = os.getenv('DB_PASSWORD')
+
+# Le chemin du fichier CSV
+csv_file_path = '/data/SuperStoreData.csv'  
 
 # Fonction pour vérifier si la base de données est prête
 def wait_for_db():
