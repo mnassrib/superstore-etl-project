@@ -1,5 +1,6 @@
 import psycopg2
 import os
+import time
 
 # Lire les variables d'environnement
 db_host = os.getenv('DB_HOST', 'db')
@@ -8,7 +9,22 @@ db_user = os.getenv('DB_USER', 'postgres')
 db_password = os.getenv('DB_PASSWORD', 'postgres')
 csv_file_path = '/data/SuperStoreData.csv'  # Mettez à jour le chemin du fichier CSV si nécessaire
 
+# Fonction pour vérifier si la base de données est prête
+def wait_for_db():
+    while True:
+        try:
+            conn = psycopg2.connect(dbname='postgres', user=db_user, password=db_password, host=db_host)
+            conn.close()
+            print("Base de données prête")
+            break
+        except psycopg2.OperationalError:
+            print("Attente de la base de données...")
+            time.sleep(5)
+
 try:
+    # Attendre que la base de données soit prête
+    wait_for_db()
+
     # Connexion initiale pour créer la base de données
     conn = psycopg2.connect(dbname='postgres', user=db_user, password=db_password, host=db_host)
     conn.autocommit = True

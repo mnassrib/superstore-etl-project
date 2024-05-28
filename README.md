@@ -38,6 +38,19 @@ superstore-project/
     ```bash
     docker-compose up --build
     ```
+---
+    - Pour savoir les noms des conteneurs Docker en cours d'exécution
+
+    ```bash
+    docker-compose ps
+    ```
+
+    - Pour vérifier les logs d'un conteneur
+
+    ```bash
+    docker logs "nom du conteneur"
+    ```
+---
 
 3. Une fois les conteneurs démarrés, vous pourrez accéder aux services suivants dans votre navigateur web :
 
@@ -62,16 +75,17 @@ superstore-project/
 1. Connectez-vous à pgAdmin avec les informations d'identification suivantes :
     - Email : `admin@admin.com`
     - Mot de passe : `admin`
-    - Créer un nouveau serveur :
-        - Clic droit sur "Servers" > "Create" > "Server..."
+    - Enregistrer un nouveau serveur :
+        - Clic droit sur "Servers" > "Register" > "Server..."
     - Configurer le serveur :
-        - Onglet "General" : Name = SuperStoreDB
+        - Onglet "General" : Name = PostgreSQL
     - Onglet "Connection" :
         - Host name/address = db
         - Port = 5432
         - Maintenance database = SuperStoreDB
         - Username = postgres
         - Password = postgres
+        - Save password? = activé
     - Cliquez sur "Save"
 
 2. Utilisez pgAdmin pour explorer, interroger et gérer la base de données PostgreSQL.
