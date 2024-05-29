@@ -21,6 +21,7 @@ superstore-project/
 │   └── erd.png
 ├── notebooks/
 ├── docker-compose.yml
+├── .env
 └── README.md
 ```
 
@@ -39,17 +40,24 @@ superstore-project/
     docker-compose up --build
     ```
     ---
-        - Pour savoir les noms des conteneurs Docker en cours d'exécution
+            - Pour savoir les noms des conteneurs Docker en cours d'exécution
 
-        ```bash
-        docker-compose ps
-        ```
+            ```bash
+            docker-compose ps
+            ```
 
-        - Pour vérifier les logs d'un conteneur
+            - Pour vérifier les logs d'un conteneur
 
-        ```bash
-        docker logs "nom du conteneur"
-        ```
+            ```bash
+            docker logs "nom du conteneur"
+            ```
+
+            - Pour appliquer des modifications, reconstruire et redémarrer les services Docker
+
+            ```bash
+            docker-compose down
+            docker-compose up --build
+            ```
     ---
 
 3. Une fois les conteneurs démarrés, vous pourrez accéder aux services suivants dans votre navigateur web :
@@ -68,25 +76,28 @@ superstore-project/
     - `erd.png` : Entity Relationship Diagram (ERD) illustrant la structure des tables de la base de données SuperStore.
 - **notebooks/** : Pour contenir les fichiers notebooks pour les analyses et visualisations des données. 
 - **docker-compose.yml** : Fichier de configuration Docker définissant les services et leurs paramètres.
-- **README.md** : Ce fichier, fournissant des instructions sur la configuration et l'utilisation du projet.
+- **.env** : Fichier stockant les variables d'environnement pour la configuration de la base de données où chaque ligne contient une variable suivie de sa valeur.
+- **README.md** : Ce fichier fournissant des instructions sur la configuration et l'utilisation du projet.
 
 ## Utilisation
 
 1. Connectez-vous à pgAdmin avec les informations d'identification suivantes :
-    - Email : adresse émail choisie pour votre pgAdmin
-    - Mot de passe : mot de passe choisi pour pgAdmin
+    - Email* : adresse émail choisie pour pgAdmin.
+    - Mot de passe* : mot de passe choisi pour pgAdmin.
     - Enregistrer un nouveau serveur :
         - Clic droit sur "Servers" > "Register" > "Server..."
     - Configurer le serveur :
-        - Onglet "General" : Name = nom choisi pour votre serveur, exemple : PostgreSQL
+        - Onglet "General" : Name = nom choisi pour le serveur, exemple : PostgreSQL
     - Onglet "Connection" :
-        - Host name/address = nom choisi pour votre service postgres : voir **docker-compose.yml**
+        - Host name/address* = nom choisi pour le service docker PostgreSQL -> voir dans **docker-compose.yml**
         - Port = 5432
-        - Maintenance database = nom choisi pour votre base de données
-        - Username = nom choisi pour votre user
-        - Password = mot de passe choisi pour votre user
+        - Maintenance database* = nom choisi pour la base de données
+        - Username* = nom choisi pour le user
+        - Password* = mot de passe choisi pour le user
         - Save password? = activé
     - Cliquez sur "Save"
+
+    * spécifié(e) dans le fichier .env
 
 2. Utilisez pgAdmin pour explorer, interroger et gérer la base de données PostgreSQL.
 

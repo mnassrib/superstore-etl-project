@@ -33,12 +33,19 @@ try:
     cur = conn.cursor()
 
     # Suppression et création de la base de données
-    cur.execute('DROP DATABASE IF EXISTS "SuperStoreDB"')
-    print("Base de données supprimée")
-    cur.execute('CREATE DATABASE "SuperStoreDB"')
-    print("Base de données créée")
+    cur.execute(f'DROP DATABASE IF EXISTS "{db_name}"')
+    print(f'Base de données {db_name} supprimée')
+    cur.execute(f'CREATE DATABASE "{db_name}"')
+    print(f'Base de données {db_name} créée')
     cur.close()
     conn.close()
+
+    #cur.execute('DROP DATABASE IF EXISTS "SuperStoreDB"')
+    #print("Base de données supprimée")
+    #cur.execute('CREATE DATABASE "SuperStoreDB"')
+    #print("Base de données créée")
+    #cur.close()
+    #conn.close()
 
     # Connexion à la nouvelle base de données
     conn = psycopg2.connect(dbname=db_name, user=db_user, password=db_password, host=db_host)

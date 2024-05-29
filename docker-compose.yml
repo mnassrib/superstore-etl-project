@@ -23,9 +23,8 @@ services:
 
   pgadmin:
     image: dpage/pgadmin4
-    environment:
-      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
-      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+    env_file:
+      - .env
     ports:
       - "8080:80"
     depends_on:
@@ -38,6 +37,8 @@ services:
       - ./notebooks:/home/jovyan/work
     ports:
       - "8888:8888"
+    env_file:
+      - .env
     environment:
       JUPYTER_ENABLE_LAB: "yes"
     command: start.sh jupyter lab --ip=0.0.0.0 --port=8888 --no-browser
