@@ -81,23 +81,44 @@ superstore-project/
 
 ## Utilisation
 
-1. Connectez-vous à pgAdmin avec les informations d'identification suivantes :
-    - Email* : adresse émail choisie pour pgAdmin.
-    - Mot de passe* : mot de passe choisi pour pgAdmin.
-    - Enregistrer un nouveau serveur :
-        - Clic droit sur "Servers" > "Register" > "Server..."
-    - Configurer le serveur :
-        - Onglet "General" : Name = nom choisi pour le serveur, exemple : PostgreSQL
-    - Onglet "Connection" :
-        - Host name/address* = nom choisi pour le service docker PostgreSQL -> voir dans **docker-compose.yml**
-        - Port = 5432
-        - Maintenance database* = nom choisi pour la base de données
-        - Username* = nom choisi pour le user
-        - Password* = mot de passe choisi pour le user
-        - Save password? = activé
-    - Cliquez sur "Save"
+1. Connectez-vous à pgAdmin en suivant les instructions d'identification suivantes
 
-    * spécifié(e) dans le fichier .env
+    a. **Connexion à pgAdmin :**
+        - **Email** : Utilisez l'adresse email que vous avez spécifiée pour pgAdmin dans le fichier `.env`.
+        - **Mot de passe** : Utilisez le mot de passe que vous avez spécifié pour pgAdmin dans le fichier `.env`.
+
+    b. **Enregistrer un nouveau serveur :**
+        - Faites un clic droit sur "Servers" > "Register" > "Server..."
+
+    c. **Configurer le serveur :**
+        - **Onglet "General" :**
+            - **Name** : Entrez un nom pour le serveur, par exemple : `PostgreSQL`.
+        - **Onglet "Connection" :**
+            - **Host name/address** : Utilisez le nom du service Docker PostgreSQL défini dans le fichier `docker-compose.yml`. Par exemple, `db` si votre service PostgreSQL est nommé `db`.
+            - **Port** : 5432
+            - **Maintenance database** : Utilisez le nom de la base de données que vous avez spécifié dans le fichier `.env`.
+            - **Username** : Utilisez le nom d'utilisateur que vous avez spécifié dans le fichier `.env`.
+            - **Password** : Utilisez le mot de passe que vous avez spécifié dans le fichier `.env`.
+            - **Save password?** : Cochez cette case pour enregistrer le mot de passe.
+
+    d. **Enregistrez les paramètres :**
+        - Cliquez sur "Save".
+
+    ---
+
+    #### Exemple de fichier `.env`
+
+    Pour référence, voici un exemple de fichier `.env` contenant les variables nécessaires :
+
+    ```env
+    DB_NAME=mydatabase
+    DB_USER=myuser
+    DB_PASSWORD=mypassword
+    PGADMIN_DEFAULT_EMAIL=admin@example.com
+    PGADMIN_DEFAULT_PASSWORD=admin_password
+    ```
+
+    ---
 
 2. Utilisez pgAdmin pour explorer, interroger et gérer la base de données PostgreSQL.
 
