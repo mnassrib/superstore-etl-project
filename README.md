@@ -81,16 +81,16 @@ superstore-project/
 
 ## Utilisation
 
-1. Connectez-vous à pgAdmin en suivant les instructions d'identification suivantes
+1. Connectez-vous à pgAdmin en suivant les instructions d'identification suivantes :
 
-    a. **Connexion à pgAdmin :**
+    - **Connexion à pgAdmin :**
         - **Email** : Utilisez l'adresse email que vous avez spécifiée pour pgAdmin dans le fichier `.env`.
         - **Mot de passe** : Utilisez le mot de passe que vous avez spécifié pour pgAdmin dans le fichier `.env`.
 
-    b. **Enregistrer un nouveau serveur :**
+    - **Enregistrer un nouveau serveur :**
         - Faites un clic droit sur "Servers" > "Register" > "Server..."
 
-    c. **Configurer le serveur :**
+    - **Configurer le serveur :**
         - **Onglet "General" :**
             - **Name** : Entrez un nom pour le serveur, par exemple : `PostgreSQL`.
         - **Onglet "Connection" :**
@@ -101,7 +101,7 @@ superstore-project/
             - **Password** : Utilisez le mot de passe que vous avez spécifié dans le fichier `.env`.
             - **Save password?** : Cochez cette case pour enregistrer le mot de passe.
 
-    d. **Enregistrez les paramètres :**
+    - **Enregistrez les paramètres :**
         - Cliquez sur "Save".
 
     ---
@@ -111,6 +111,7 @@ superstore-project/
     Pour référence, voici un exemple de fichier `.env` contenant les variables nécessaires :
 
     ```env
+    DB_HOST=db
     DB_NAME=mydatabase
     DB_USER=myuser
     DB_PASSWORD=mypassword
