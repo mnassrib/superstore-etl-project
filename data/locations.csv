@@ -1,0 +1,633 @@
+location_id,city,state,postal_code,region
+"32303,Tallahassee",Tallahassee,Florida,32303,South
+"84084,West Jordan",West Jordan,Utah,84084,West
+"78550,Harlingen",Harlingen,Texas,78550,Central
+"6010,Bristol",Bristol,Connecticut,6010 ,East
+"92627,Costa Mesa",Costa Mesa,California,92627,West
+"48185,Westland",Westland,Michigan,48185,Central
+"35630,Florence",Florence,Alabama,35630,South
+"64055,Independence",Independence,Missouri,64055,Central
+"33134,Coral Gables",Coral Gables,Florida,33134,South
+"95051,Santa Clara",Santa Clara,California,95051,West
+"27405,Greensboro",Greensboro,North Carolina,27405,South
+"53142,Kenosha",Kenosha,Wisconsin,53142,Central
+"80122,Littleton",Littleton,Colorado,80122,West
+"44107,Lakewood",Lakewood,Ohio,44107,East
+"44134,Parma",Parma,Ohio,44134,East
+"60025,Glenview",Glenview,Illinois,60025,Central
+"98006,Bellevue",Bellevue,Washington,98006,West
+"2886,Warwick",Warwick,Rhode Island,2886 ,East
+"98632,Longview",Longview,Washington,98632,West
+"89431,Sparks",Sparks,Nevada,89431,West
+"75023,Plano",Plano,Texas,75023,Central
+"13021,Auburn",Auburn,New York,13021,East
+"71603,Pine Bluff",Pine Bluff,Arkansas,71603,South
+"42104,Bowling Green",Bowling Green,Kentucky,42104,South
+"98115,Seattle",Seattle,Washington,98115,West
+"30344,East Point",East Point,Georgia,30344,South
+"97123,Hillsboro",Hillsboro,Oregon,97123,West
+"7036,Linden",Linden,New Jersey,7036 ,East
+"94061,Redwood City",Redwood City,California,94061,West
+"05408,Burlington",Burlington,Vermont,5408 ,East
+"10801,New Rochelle",New Rochelle,New York,10801,East
+"60188,Carol Stream",Carol Stream,Illinois,60188,Central
+"91761,Ontario",Ontario,California,91761,West
+"20735,Clinton",Clinton,Maryland,20735,East
+"27707,Durham",Durham,North Carolina,27707,South
+"42420,Henderson",Henderson,Kentucky,42420,South
+"98103,Seattle",Seattle,Washington,98103,West
+"72401,Jonesboro",Jonesboro,Arkansas,72401,South
+"68104,Omaha",Omaha,Nebraska,68104,Central
+"73071,Norman",Norman,Oklahoma,73071,Central
+"37087,Lebanon",Lebanon,Tennessee,37087,South
+"77642,Port Arthur",Port Arthur,Texas,77642,Central
+"90660,Pico Rivera",Pico Rivera,California,90660,West
+"29501,Florence",Florence,South Carolina,29501,South
+"75002,Allen",Allen,Texas,75002,Central
+"92672,San Clemente",San Clemente,California,92672,West
+"55124,Apple Valley",Apple Valley,Minnesota,55124,Central
+"53132,Franklin",Franklin,Wisconsin,53132,Central
+"78666,San Marcos",San Marcos,Texas,78666,Central
+"85204,Mesa",Mesa,Arizona,85204,West
+"77036,Houston",Houston,Texas,77036,Central
+"38109,Memphis",Memphis,Tennessee,38109,South
+"60505,Aurora",Aurora,Illinois,60505,Central
+"84106,Salt Lake City",Salt Lake City,Utah,84106,West
+"8861,Perth Amboy",Perth Amboy,New Jersey,8861 ,East
+"32137,Palm Coast",Palm Coast,Florida,32137,South
+"7017,East Orange",East Orange,New Jersey,7017 ,East
+"60540,Naperville",Naperville,Illinois,60540,Central
+"59102,Billings",Billings,Montana,59102,West
+"46368,Portage",Portage,Indiana,46368,Central
+"78501,Mcallen",Mcallen,Texas,78501,Central
+"93905,Salinas",Salinas,California,93905,West
+"1852,Lowell",Lowell,Massachusetts,1852 ,East
+"57701,Rapid City",Rapid City,South Dakota,57701,Central
+"47362,New Castle",New Castle,Indiana,47362,Central
+"49423,Holland",Holland,Michigan,49423,Central
+"70506,Lafayette",Lafayette,Louisiana,70506,South
+"27360,Thomasville",Thomasville,North Carolina,27360,South
+"60068,Park Ridge",Park Ridge,Illinois,60068,Central
+"95207,Stockton",Stockton,California,95207,West
+"68701,Norfolk",Norfolk,Nebraska,68701,Central
+"35401,Tuscaloosa",Tuscaloosa,Alabama,35401,South
+"37604,Johnson City",Johnson City,Tennessee,37604,South
+"23434,Suffolk",Suffolk,Virginia,23434,South
+"59715,Bozeman",Bozeman,Montana,59715,West
+"93309,Bakersfield",Bakersfield,California,93309,West
+"60004,Arlington Heights",Arlington Heights,Illinois,60004,Central
+"20707,Laurel",Laurel,Maryland,20707,East
+"70065,Kenner",Kenner,Louisiana,70065,South
+"27217,Burlington",Burlington,North Carolina,27217,South
+"2151,Revere",Revere,Massachusetts,2151 ,East
+"92677,Laguna Niguel",Laguna Niguel,California,92677,West
+"47150,New Albany",New Albany,Indiana,47150,Central
+"79762,Odessa",Odessa,Texas,79762,Central
+"84604,Provo",Provo,Utah,84604,West
+"28540,Jacksonville",Jacksonville,North Carolina,28540,South
+"19134,Philadelphia",Philadelphia,Pennsylvania,19134,East
+"92553,Moreno Valley",Moreno Valley,California,92553,West
+"8901,New Brunswick",New Brunswick,New Jersey,8901 ,East
+"61604,Peoria",Peoria,Illinois,61604,Central
+"2895,Woonsocket",Woonsocket,Rhode Island,2895 ,East
+"97206,Portland",Portland,Oregon,97206,West
+"85345,Peoria",Peoria,Arizona,85345,West
+"80134,Parker",Parker,Colorado,80134,West
+"72701,Fayetteville",Fayetteville,Arkansas,72701,South
+"77095,Houston",Houston,Texas,77095,Central
+"45503,Springfield",Springfield,Ohio,45503,East
+"93405,San Luis Obispo",San Luis Obispo,California,93405,West
+"32127,Port Orange",Port Orange,Florida,32127,South
+"86442,Bullhead City",Bullhead City,Arizona,86442,West
+"23666,Hampton",Hampton,Virginia,23666,South
+"44221,Cuyahoga Falls",Cuyahoga Falls,Ohio,44221,East
+"97756,Redmond",Redmond,Oregon,97756,West
+"29730,Rock Hill",Rock Hill,South Carolina,29730,South
+"56301,Saint Cloud",Saint Cloud,Minnesota,56301,Central
+"6040,Manchester",Manchester,Connecticut,6040 ,East
+"48601,Saginaw",Saginaw,Michigan,48601,Central
+"50701,Waterloo",Waterloo,Iowa,50701,Central
+"45231,Cincinnati",Cincinnati,Ohio,45231,East
+"32216,Jacksonville",Jacksonville,Florida,32216,South
+"92345,Hesperia",Hesperia,California,92345,West
+"90036,Los Angeles",Los Angeles,California,90036,West
+"60302,Oak Park",Oak Park,Illinois,60302,Central
+"23464,Virginia Beach",Virginia Beach,Virginia,23464,South
+"33445,Delray Beach",Delray Beach,Florida,33445,South
+"74012,Broken Arrow",Broken Arrow,Oklahoma,74012,Central
+"98052,Redmond",Redmond,Washington,98052,West
+"1040,Holyoke",Holyoke,Massachusetts,1040 ,East
+"76051,Grapevine",Grapevine,Texas,76051,Central
+"98031,Kent",Kent,Washington,98031,West
+"77506,Pasadena",Pasadena,Texas,77506,Central
+"12180,Troy",Troy,New York,12180,East
+"14304,Niagara Falls",Niagara Falls,New York,14304,East
+"55106,Saint Paul",Saint Paul,Minnesota,55106,Central
+"80538,Loveland",Loveland,Colorado,80538,West
+"20877,Gaithersburg",Gaithersburg,Maryland,20877,East
+"11520,Freeport",Freeport,New York,11520,East
+"92503,Riverside",Riverside,California,92503,West
+"49201,Jackson",Jackson,Michigan,49201,Central
+"45014,Fairfield",Fairfield,Ohio,45014,East
+"44105,Cleveland",Cleveland,Ohio,44105,East
+"67212,Wichita",Wichita,Kansas,67212,Central
+"33161,North Miami",North Miami,Florida,33161,South
+"37620,Bristol",Bristol,Tennessee,37620,South
+"83704,Boise",Boise,Idaho,83704,West
+"56560,Moorhead",Moorhead,Minnesota,56560,Central
+"72032,Conway",Conway,Arkansas,72032,South
+"35601,Decatur",Decatur,Alabama,35601,South
+"47374,Richmond",Richmond,Indiana,47374,Central
+"80027,Louisville",Louisville,Colorado,80027,West
+"63122,Kirkwood",Kirkwood,Missouri,63122,Central
+"31204,Macon",Macon,Georgia,31204,South
+"30080,Smyrna",Smyrna,Georgia,30080,South
+"95123,San Jose",San Jose,California,95123,West
+"21044,Columbia",Columbia,Maryland,21044,East
+"99207,Spokane",Spokane,Washington,99207,West
+"66062,Olathe",Olathe,Kansas,66062,Central
+"28403,Wilmington",Wilmington,North Carolina,28403,South
+"85224,Chandler",Chandler,Arizona,85224,West
+"34952,Port Saint Lucie",Port Saint Lucie,Florida,34952,South
+"94122,San Francisco",San Francisco,California,94122,West
+"90045,Los Angeles",Los Angeles,California,90045,West
+"92399,Yucaipa",Yucaipa,California,92399,West
+"71203,Monroe",Monroe,Louisiana,71203,South
+"57401,Aberdeen",Aberdeen,South Dakota,57401,Central
+"71901,Hot Springs",Hot Springs,Arkansas,71901,South
+"75220,Dallas",Dallas,Texas,75220,Central
+"94568,Dublin",Dublin,California,94568,West
+"90278,Redondo Beach",Redondo Beach,California,90278,West
+"33407,West Palm Beach",West Palm Beach,Florida,33407,South
+"87505,Santa Fe",Santa Fe,New Mexico,87505,West
+"94601,Oakland",Oakland,California,94601,West
+"23223,Richmond",Richmond,Virginia,23223,South
+"20016,Washington",Washington,District of Columbia,20016,East
+"75019,Coppell",Coppell,Texas,75019,Central
+"6708,Waterbury",Waterbury,Connecticut,6708 ,East
+"60423,Frankfort",Frankfort,Illinois,60423,Central
+"32935,Melbourne",Melbourne,Florida,32935,South
+"93277,Visalia",Visalia,California,93277,West
+"47401,Bloomington",Bloomington,Indiana,47401,Central
+"76106,Fort Worth",Fort Worth,Texas,76106,Central
+"83642,Meridian",Meridian,Idaho,83642,West
+"8360,Vineland",Vineland,New Jersey,8360 ,East
+"79109,Amarillo",Amarillo,Texas,79109,Central
+"1810,Andover",Andover,Massachusetts,1810 ,East
+"65203,Columbia",Columbia,Missouri,65203,Central
+"92630,Lake Forest",Lake Forest,California,92630,West
+"48640,Midland",Midland,Michigan,48640,Central
+"7109,Belleville",Belleville,New Jersey,7109 ,East
+"60098,Woodstock",Woodstock,Illinois,60098,Central
+"98661,Vancouver",Vancouver,Washington,98661,West
+"92646,Huntington Beach",Huntington Beach,California,92646,West
+"60035,Highland Park",Highland Park,Illinois,60035,Central
+"71854,Texarkana",Texarkana,Arkansas,71854,South
+"63376,Saint Peters",Saint Peters,Missouri,63376,Central
+"48234,Detroit",Detroit,Michigan,48234,Central
+"98042,Covington",Covington,Washington,98042,West
+"60440,Bolingbrook",Bolingbrook,Illinois,60440,Central
+"62521,Decatur",Decatur,Illinois,62521,Central
+"2148,Malden",Malden,Massachusetts,2148 ,East
+"17403,York",York,Pennsylvania,17403,East
+"48858,Mount Pleasant",Mount Pleasant,Michigan,48858,Central
+"7501,Paterson",Paterson,New Jersey,7501 ,East
+"40214,Louisville",Louisville,Kentucky,40214,South
+"98105,Seattle",Seattle,Washington,98105,West
+"90640,Montebello",Montebello,California,90640,West
+"3820,Dover",Dover,New Hampshire,3820 ,East
+"78539,Edinburg",Edinburg,Texas,78539,Central
+"87105,Albuquerque",Albuquerque,New Mexico,87105,West
+"64118,Gladstone",Gladstone,Missouri,64118,Central
+"50315,Des Moines",Des Moines,Iowa,50315,Central
+"37064,Franklin",Franklin,Tennessee,37064,South
+"48127,Dearborn Heights",Dearborn Heights,Michigan,48127,Central
+"66212,Overland Park",Overland Park,Kansas,66212,Central
+"44256,Medina",Medina,Ohio,44256,East
+"48911,Lansing",Lansing,Michigan,48911,Central
+"91360,Thousand Oaks",Thousand Oaks,California,91360,West
+"91104,Pasadena",Pasadena,California,91104,West
+"85301,Glendale",Glendale,Arizona,85301,West
+"53081,Sheboygan",Sheboygan,Wisconsin,53081,Central
+"41042,Florence",Florence,Kentucky,41042,South
+"32712,Apopka",Apopka,Florida,32712,South
+"63116,Saint Louis",Saint Louis,Missouri,63116,Central
+"78521,Brownsville",Brownsville,Texas,78521,Central
+"29406,North Charleston",North Charleston,South Carolina,29406,South
+"93534,Lancaster",Lancaster,California,93534,West
+"14701,Jamestown",Jamestown,New York,14701,East
+"82001,Cheyenne",Cheyenne,Wyoming,82001,West
+"92024,Encinitas",Encinitas,California,92024,West
+"98208,Everett",Everett,Washington,98208,West
+"38671,Southaven",Southaven,Mississippi,38671,South
+"4240,Lewiston",Lewiston,Maine,4240 ,East
+"54703,Eau Claire",Eau Claire,Wisconsin,54703,Central
+"2740,New Bedford",New Bedford,Massachusetts,2740 ,East
+"8701,Lakewood",Lakewood,New Jersey,8701 ,East
+"16602,Altoona",Altoona,Pennsylvania,16602,East
+"76021,Bedford",Bedford,Texas,76021,Central
+"75701,Tyler",Tyler,Texas,75701,Central
+"80013,Aurora",Aurora,Colorado,80013,West
+"7055,Passaic",Passaic,New Jersey,7055 ,East
+"92037,San Diego",San Diego,California,92037,West
+"66502,Manhattan",Manhattan,Kansas,66502,Central
+"53214,West Allis",West Allis,Wisconsin,53214,Central
+"46226,Lawrence",Lawrence,Indiana,46226,Central
+"6457,Middletown",Middletown,Connecticut,6457 ,East
+"75217,Dallas",Dallas,Texas,75217,Central
+"98270,Marysville",Marysville,Washington,98270,West
+"77803,Bryan",Bryan,Texas,77803,Central
+"19143,Philadelphia",Philadelphia,Pennsylvania,19143,East
+"68025,Fremont",Fremont,Nebraska,68025,Central
+"52001,Dubuque",Dubuque,Iowa,52001,Central
+"33710,Saint Petersburg",Saint Petersburg,Florida,33710,South
+"94513,Brentwood",Brentwood,California,94513,West
+"29464,Mount Pleasant",Mount Pleasant,South Carolina,29464,South
+"90712,Lakewood",Lakewood,California,90712,West
+"59801,Missoula",Missoula,Montana,59801,West
+"10035,New York City",New York City,New York,10035,East
+"37918,Knoxville",Knoxville,Tennessee,37918,South
+"98198,Des Moines",Des Moines,Washington,98198,West
+"76063,Mansfield",Mansfield,Texas,76063,Central
+"30076,Roswell",Roswell,Georgia,30076,South
+"27511,Cary",Cary,North Carolina,27511,South
+"48183,Trenton",Trenton,Michigan,48183,Central
+"37211,Nashville",Nashville,Tennessee,37211,South
+"11550,Hempstead",Hempstead,New York,11550,East
+"94509,Antioch",Antioch,California,94509,West
+"32839,Orlando",Orlando,Florida,32839,South
+"98226,Bellingham",Bellingham,Washington,98226,West
+"84062,Pleasant Grove",Pleasant Grove,Utah,84062,West
+"60201,Evanston",Evanston,Illinois,60201,Central
+"76248,Keller",Keller,Texas,76248,Central
+"33142,Miami",Miami,Florida,33142,South
+"48307,Rochester Hills",Rochester Hills,Michigan,48307,Central
+"60089,Buffalo Grove",Buffalo Grove,Illinois,60089,Central
+"92105,San Diego",San Diego,California,92105,West
+"60623,Chicago",Chicago,Illinois,60623,Central
+"28027,Concord",Concord,North Carolina,28027,South
+"65109,Jefferson City",Jefferson City,Missouri,65109,Central
+"30318,Atlanta",Atlanta,Georgia,30318,South
+"93454,Santa Maria",Santa Maria,California,93454,West
+"7011,Clifton",Clifton,New Jersey,7011 ,East
+"97504,Medford",Medford,Oregon,97504,West
+"89502,Reno",Reno,Nevada,89502,West
+"35244,Hoover",Hoover,Alabama,35244,South
+"22801,Harrisonburg",Harrisonburg,Virginia,22801,South
+"92704,Santa Ana",Santa Ana,California,92704,West
+"7601,Hackensack",Hackensack,New Jersey,7601 ,East
+"33065,Coral Springs",Coral Springs,Florida,33065,South
+"65807,Springfield",Springfield,Missouri,65807,Central
+"77590,Texas City",Texas City,Texas,77590,Central
+"94533,Fairfield",Fairfield,California,94533,West
+"33437,Boynton Beach",Boynton Beach,Florida,33437,South
+"76117,Haltom City",Haltom City,Texas,76117,Central
+"1841,Lawrence",Lawrence,Massachusetts,1841 ,East
+"84057,Orem",Orem,Utah,84057,West
+"95610,Citrus Heights",Citrus Heights,California,95610,West
+"75056,The Colony",The Colony,Texas,75056,Central
+"32725,Deltona",Deltona,Florida,32725,South
+"98502,Olympia",Olympia,Washington,98502,West
+"27604,Raleigh",Raleigh,North Carolina,27604,South
+"92683,Westminster",Westminster,California,92683,West
+"77571,La Porte",La Porte,Texas,77571,Central
+"77520,Baytown",Baytown,Texas,77520,Central
+"46544,Mishawaka",Mishawaka,Indiana,46544,Central
+"71111,Bossier City",Bossier City,Louisiana,71111,South
+"19601,Reading",Reading,Pennsylvania,19601,East
+"27534,Goldsboro",Goldsboro,North Carolina,27534,South
+"79605,Abilene",Abilene,Texas,79605,Central
+"54880,Superior",Superior,Wisconsin,54880,Central
+"92236,Coachella",Coachella,California,92236,West
+"44240,Kent",Kent,Ohio,44240,East
+"2908,Providence",Providence,Rhode Island,2908 ,East
+"39212,Jackson",Jackson,Mississippi,39212,South
+"80229,Thornton",Thornton,Colorado,80229,West
+"19120,Philadelphia",Philadelphia,Pennsylvania,19120,East
+"6484,Shelton",Shelton,Connecticut,6484 ,East
+"90301,Inglewood",Inglewood,California,90301,West
+"94086,Sunnyvale",Sunnyvale,California,94086,West
+"44312,Akron",Akron,Ohio,44312,East
+"55407,Minneapolis",Minneapolis,Minnesota,55407,Central
+"55016,Cottage Grove",Cottage Grove,Minnesota,55016,Central
+"43229,Columbus",Columbus,Ohio,43229,East
+"61832,Danville",Danville,Illinois,61832,Central
+"90503,Torrance",Torrance,California,90503,West
+"60477,Tinley Park",Tinley Park,Illinois,60477,Central
+"73120,Oklahoma City",Oklahoma City,Oklahoma,73120,Central
+"88101,Clovis",Clovis,New Mexico,88101,West
+"77489,Missouri City",Missouri City,Texas,77489,Central
+"75080,Richardson",Richardson,Texas,75080,Central
+"28806,Asheville",Asheville,North Carolina,28806,South
+"43302,Marion",Marion,Ohio,43302,East
+"95351,Modesto",Modesto,California,95351,West
+"7050,Orange",Orange,New Jersey,7050 ,East
+"10701,Yonkers",Yonkers,New York,10701,East
+"33012,Hialeah",Hialeah,Florida,33012,South
+"2138,Cambridge",Cambridge,Massachusetts,2138 ,East
+"73505,Lawton",Lawton,Oklahoma,73505,Central
+"38301,Jackson",Jackson,Tennessee,38301,South
+"43130,Lancaster",Lancaster,Ohio,43130,East
+"90004,Los Angeles",Los Angeles,California,90004,West
+"98059,Renton",Renton,Washington,98059,West
+"91730,Rancho Cucamonga",Rancho Cucamonga,California,91730,West
+"95616,Davis",Davis,California,95616,West
+"17602,Lancaster",Lancaster,Pennsylvania,17602,East
+"60016,Des Plaines",Des Plaines,Illinois,60016,Central
+"6460,Milford",Milford,Connecticut,6460 ,East
+"54401,Wausau",Wausau,Wisconsin,54401,Central
+"97477,Springfield",Springfield,Oregon,97477,West
+"3060,Nashua",Nashua,New Hampshire,3060 ,East
+"13440,Rome",Rome,New York,13440,East
+"7002,Bayonne",Bayonne,New Jersey,7002 ,East
+"44035,Elyria",Elyria,Ohio,44035,East
+"95928,Chico",Chico,California,95928,West
+"48205,Detroit",Detroit,Michigan,48205,Central
+"96003,Redding",Redding,California,96003,West
+"80906,Colorado Springs",Colorado Springs,Colorado,80906,West
+"48237,Oak Park",Oak Park,Michigan,48237,Central
+"97030,Gresham",Gresham,Oregon,97030,West
+"84321,Logan",Logan,Utah,84321,West
+"77301,Conroe",Conroe,Texas,77301,Central
+"77581,Pearland",Pearland,Texas,77581,Central
+"11572,Oceanside",Oceanside,New York,11572,East
+"55433,Coon Rapids",Coon Rapids,Minnesota,55433,Central
+"76706,Waco",Waco,Texas,76706,Central
+"75150,Mesquite",Mesquite,Texas,75150,Central
+"19013,Chester",Chester,Pennsylvania,19013,East
+"85364,Yuma",Yuma,Arizona,85364,West
+"46060,Noblesville",Noblesville,Indiana,46060,Central
+"1752,Marlborough",Marlborough,Massachusetts,1752 ,East
+"80525,Fort Collins",Fort Collins,Colorado,80525,West
+"10550,Mount Vernon",Mount Vernon,New York,10550,East
+"92374,Redlands",Redlands,California,92374,West
+"22901,Charlottesville",Charlottesville,Virginia,22901,South
+"92563,Murrieta",Murrieta,California,92563,West
+"33030,Homestead",Homestead,Florida,33030,South
+"23602,Newport News",Newport News,Virginia,23602,South
+"33023,Miramar",Miramar,Florida,33023,South
+"60076,Skokie",Skokie,Illinois,60076,Central
+"48066,Roseville",Roseville,Michigan,48066,Central
+"85705,Tucson",Tucson,Arizona,85705,West
+"95661,Roseville",Roseville,California,95661,West
+"72756,Rogers",Rogers,Arkansas,72756,South
+"14609,Rochester",Rochester,New York,14609,East
+"52402,Cedar Rapids",Cedar Rapids,Iowa,52402,Central
+"22153,Springfield",Springfield,Virginia,22153,South
+"45011,Hamilton",Hamilton,Ohio,45011,East
+"88220,Carlsbad",Carlsbad,New Mexico,88220,West
+"76903,San Angelo",San Angelo,Texas,76903,Central
+"43123,Grove City",Grove City,Ohio,43123,East
+"81001,Pueblo",Pueblo,Colorado,81001,West
+"84041,Layton",Layton,Utah,84041,West
+"93010,Camarillo",Camarillo,California,93010,West
+"68801,Grand Island",Grand Island,Nebraska,68801,Central
+"7960,Morristown",Morristown,New Jersey,7960 ,East
+"37167,Smyrna",Smyrna,Tennessee,37167,South
+"42301,Owensboro",Owensboro,Kentucky,42301,South
+"46142,Greenwood",Greenwood,Indiana,46142,Central
+"48146,Lincoln Park",Lincoln Park,Michigan,48146,Central
+"90805,Long Beach",Long Beach,California,90805,West
+"93727,Fresno",Fresno,California,93727,West
+"39503,Gulfport",Gulfport,Mississippi,39503,South
+"83201,Pocatello",Pocatello,Idaho,83201,West
+"77041,Houston",Houston,Texas,77041,Central
+"95037,Morgan Hill",Morgan Hill,California,95037,West
+"77573,League City",League City,Texas,77573,Central
+"78041,Laredo",Laredo,Texas,78041,Central
+"61107,Rockford",Rockford,Illinois,61107,Central
+"48073,Royal Oak",Royal Oak,Michigan,48073,Central
+"80020,Broomfield",Broomfield,Colorado,80020,West
+"90604,Whittier",Whittier,California,90604,West
+"91776,San Gabriel",San Gabriel,California,91776,West
+"60441,Romeoville",Romeoville,Illinois,60441,Central
+"80022,Commerce City",Commerce City,Colorado,80022,West
+"89031,North Las Vegas",North Las Vegas,Nevada,89031,West
+"27834,Greenville",Greenville,North Carolina,27834,South
+"29203,Columbia",Columbia,South Carolina,29203,South
+"53209,Milwaukee",Milwaukee,Wisconsin,53209,Central
+"98026,Edmonds",Edmonds,Washington,98026,West
+"30062,Marietta",Marietta,Georgia,30062,South
+"75007,Carrollton",Carrollton,Texas,75007,Central
+"97405,Eugene",Eugene,Oregon,97405,West
+"20852,Rockville",Rockville,Maryland,20852,East
+"59405,Great Falls",Great Falls,Montana,59405,West
+"44052,Lorain",Lorain,Ohio,44052,East
+"77340,Huntsville",Huntsville,Texas,77340,Central
+"60067,Palatine",Palatine,Illinois,60067,Central
+"54601,La Crosse",La Crosse,Wisconsin,54601,Central
+"61032,Freeport",Freeport,Illinois,61032,Central
+"46514,Elkhart",Elkhart,Indiana,46514,Central
+"55125,Woodbury",Woodbury,Minnesota,55125,Central
+"79907,El Paso",El Paso,Texas,79907,Central
+"92024,San Diego",San Diego,California,92024,West
+"19140,Philadelphia",Philadelphia,Pennsylvania,19140,East
+"93030,Oxnard",Oxnard,California,93030,West
+"59601,Helena",Helena,Montana,59601,West
+"75061,Irving",Irving,Texas,75061,Central
+"91941,La Mesa",La Mesa,California,91941,West
+"83301,Twin Falls",Twin Falls,Idaho,83301,West
+"52240,Iowa City",Iowa City,Iowa,52240,Central
+"73034,Edmond",Edmond,Oklahoma,73034,Central
+"75104,Cedar Hill",Cedar Hill,Texas,75104,Central
+"6360,Norwich",Norwich,Connecticut,6360 ,East
+"53711,Madison",Madison,Wisconsin,53711,Central
+"40475,Richmond",Richmond,Kentucky,40475,South
+"45373,Troy",Troy,Ohio,45373,East
+"27893,Wilson",Wilson,North Carolina,27893,South
+"48187,Canton",Canton,Michigan,48187,Central
+"85234,Gilbert",Gilbert,Arizona,85234,West
+"80112,Englewood",Englewood,Colorado,80112,West
+"77840,College Station",College Station,Texas,77840,Central
+"7090,Westfield",Westfield,New Jersey,7090 ,East
+"28052,Gastonia",Gastonia,North Carolina,28052,South
+"95823,Sacramento",Sacramento,California,95823,West
+"19711,Newark",Newark,Delaware,19711,East
+"50322,Urbandale",Urbandale,Iowa,50322,Central
+"92530,Lake Elsinore",Lake Elsinore,California,92530,West
+"46350,La Porte",La Porte,Indiana,46350,Central
+"55122,Eagan",Eagan,Minnesota,55122,Central
+"28110,Monroe",Monroe,North Carolina,28110,South
+"94403,San Mateo",San Mateo,California,94403,West
+"95695,Woodland",Woodland,California,95695,West
+"22980,Waynesboro",Waynesboro,Virginia,22980,South
+"75034,Frisco",Frisco,Texas,75034,Central
+"91767,Pomona",Pomona,California,91767,West
+"85023,Phoenix",Phoenix,Arizona,85023,West
+"91505,Burbank",Burbank,California,91505,West
+"18103,Allentown",Allentown,Pennsylvania,18103,East
+"8401,Atlantic City",Atlantic City,New Jersey,8401 ,East
+"33178,Miami",Miami,Florida,33178,South
+"88001,Las Cruces",Las Cruces,New Mexico,88001,West
+"61821,Champaign",Champaign,Illinois,61821,Central
+"83501,Lewiston",Lewiston,Idaho,83501,West
+"37421,Chattanooga",Chattanooga,Tennessee,37421,South
+"85323,Avondale",Avondale,Arizona,85323,West
+"74133,Tulsa",Tulsa,Oklahoma,74133,Central
+"72762,Springdale",Springdale,Arkansas,72762,South
+"70601,Lake Charles",Lake Charles,Louisiana,70601,South
+"60126,Elmhurst",Elmhurst,Illinois,60126,Central
+"18018,Bethlehem",Bethlehem,Pennsylvania,18018,East
+"23320,Chesapeake",Chesapeake,Virginia,23320,South
+"55901,Rochester",Rochester,Minnesota,55901,Central
+"33063,Margate",Margate,Florida,33063,South
+"87401,Farmington",Farmington,New Mexico,87401,West
+"61761,Normal",Normal,Illinois,61761,Central
+"33433,Boca Raton",Boca Raton,Florida,33433,South
+"28205,Charlotte",Charlotte,North Carolina,28205,South
+"99301,Pasco",Pasco,Washington,99301,West
+"22304,Alexandria",Alexandria,Virginia,22304,South
+"33068,Pompano Beach",Pompano Beach,Florida,33068,South
+"26003,Wheeling",Wheeling,West Virginia,26003,East
+"67846,Garden City",Garden City,Kansas,67846,Central
+"78577,Pharr",Pharr,Texas,78577,Central
+"30328,Sandy Springs",Sandy Springs,Georgia,30328,South
+"28314,Fayetteville",Fayetteville,North Carolina,28314,South
+"33458,Jupiter",Jupiter,Florida,33458,South
+"33801,Lakeland",Lakeland,Florida,33801,South
+"31907,Columbus",Columbus,Georgia,31907,South
+"89015,Henderson",Henderson,Nevada,89015,West
+"85281,Tempe",Tempe,Arizona,85281,West
+"90049,Los Angeles",Los Angeles,California,90049,West
+"48180,Taylor",Taylor,Michigan,48180,Central
+"53186,Waukesha",Waukesha,Wisconsin,53186,Central
+"10011,New York City",New York City,New York,10011,East
+"48227,Detroit",Detroit,Michigan,48227,Central
+"10009,New York City",New York City,New York,10009,East
+"87124,Rio Rancho",Rio Rancho,New Mexico,87124,West
+"32114,Daytona Beach",Daytona Beach,Florida,32114,South
+"55369,Maple Grove",Maple Grove,Minnesota,55369,Central
+"95336,Manteca",Manteca,California,95336,West
+"43055,Newark",Newark,Ohio,43055,East
+"30188,Woodstock",Woodstock,Georgia,30188,South
+"38401,Columbia",Columbia,Tennessee,38401,South
+"77070,Houston",Houston,Texas,77070,Central
+"43615,Toledo",Toledo,Ohio,43615,East
+"34741,Kissimmee",Kissimmee,Florida,34741,South
+"33180,Miami",Miami,Florida,33180,South
+"92691,Mission Viejo",Mission Viejo,California,92691,West
+"19805,Wilmington",Wilmington,Delaware,19805,East
+"63301,Saint Charles",Saint Charles,Missouri,63301,Central
+"77705,Beaumont",Beaumont,Texas,77705,Central
+"80219,Denver",Denver,Colorado,80219,West
+"78745,Austin",Austin,Texas,78745,Central
+"92054,Oceanside",Oceanside,California,92054,West
+"54915,Appleton",Appleton,Wisconsin,54915,Central
+"83605,Caldwell",Caldwell,Idaho,83605,West
+"44060,Mentor",Mentor,Ohio,44060,East
+"33024,Pembroke Pines",Pembroke Pines,Florida,33024,South
+"21215,Baltimore",Baltimore,Maryland,21215,East
+"79424,Lubbock",Lubbock,Texas,79424,Central
+"11561,Long Beach",Long Beach,New York,11561,East
+"33021,Hollywood",Hollywood,Florida,33021,South
+"75081,Dallas",Dallas,Texas,75081,Central
+"92592,Temecula",Temecula,California,92592,West
+"28601,Hickory",Hickory,North Carolina,28601,South
+"33317,Plantation",Plantation,Florida,33317,South
+"35810,Huntsville",Huntsville,Alabama,35810,South
+"32771,Sanford",Sanford,Florida,32771,South
+"32174,Ormond Beach",Ormond Beach,Florida,32174,South
+"43402,Bowling Green",Bowling Green,Ohio,43402,East
+"85254,Scottsdale",Scottsdale,Arizona,85254,West
+"24153,Salem",Salem,Virginia,24153,South
+"89115,Las Vegas",Las Vegas,Nevada,89115,West
+"49505,Grand Rapids",Grand Rapids,Michigan,49505,Central
+"46614,South Bend",South Bend,Indiana,46614,Central
+"85635,Sierra Vista",Sierra Vista,Arizona,85635,West
+"30605,Athens",Athens,Georgia,30605,South
+"75043,Garland",Garland,Texas,75043,Central
+"77536,Deer Park",Deer Park,Texas,77536,Central
+"84107,Murray",Murray,Utah,84107,West
+"36830,Auburn",Auburn,Alabama,36830,South
+"97224,Tigard",Tigard,Oregon,97224,West
+"95687,Vacaville",Vacaville,California,95687,West
+"94109,San Francisco",San Francisco,California,94109,West
+"27514,Chapel Hill",Chapel Hill,North Carolina,27514,South
+"48126,Dearborn",Dearborn,Michigan,48126,Central
+"52601,Burlington",Burlington,Iowa,52601,Central
+"94521,Concord",Concord,California,94521,West
+"92025,Escondido",Escondido,California,92025,West
+"90032,Los Angeles",Los Angeles,California,90032,West
+"47905,Lafayette",Lafayette,Indiana,47905,Central
+"8302,Bridgeton",Bridgeton,New Jersey,8302 ,East
+"93101,Santa Barbara",Santa Barbara,California,93101,West
+"38134,Bartlett",Bartlett,Tennessee,38134,South
+"92253,La Quinta",La Quinta,California,92253,West
+"2169,Quincy",Quincy,Massachusetts,2169 ,East
+"92804,Anaheim",Anaheim,California,92804,West
+"60462,Orland Park",Orland Park,Illinois,60462,Central
+"37042,Clarksville",Clarksville,Tennessee,37042,South
+"40324,Georgetown",Georgetown,Kentucky,40324,South
+"74403,Muskogee",Muskogee,Oklahoma,74403,Central
+"60543,Oswego",Oswego,Illinois,60543,Central
+"7060,Plainfield",Plainfield,New Jersey,7060 ,East
+"92404,San Bernardino",San Bernardino,California,92404,West
+"32503,Pensacola",Pensacola,Florida,32503,South
+"46203,Indianapolis",Indianapolis,Indiana,46203,Central
+"78207,San Antonio",San Antonio,Texas,78207,Central
+"78415,Corpus Christi",Corpus Christi,Texas,78415,Central
+"6450,Meriden",Meriden,Connecticut,6450 ,East
+"13601,Watertown",Watertown,New York,13601,East
+"94526,Danville",Danville,California,94526,West
+"60090,Wheeling",Wheeling,Illinois,60090,Central
+"43017,Dublin",Dublin,Ohio,43017,East
+"45040,Mason",Mason,Ohio,45040,East
+"1453,Leominster",Leominster,Massachusetts,1453 ,East
+"37130,Murfreesboro",Murfreesboro,Tennessee,37130,South
+"6810,Danbury",Danbury,Connecticut,6810 ,East
+"72209,Little Rock",Little Rock,Arkansas,72209,South
+"52302,Marion",Marion,Iowa,52302,Central
+"55044,Lakeville",Lakeville,Minnesota,55044,Central
+"2149,Everett",Everett,Massachusetts,2149 ,East
+"48104,Ann Arbor",Ann Arbor,Michigan,48104,Central
+"80004,Arvada",Arvada,Colorado,80004,West
+"95240,Lodi",Lodi,California,95240,West
+"54302,Green Bay",Green Bay,Wisconsin,54302,Central
+"1915,Beverly",Beverly,Massachusetts,1915 ,East
+"57103,Sioux Falls",Sioux Falls,South Dakota,57103,Central
+"21740,Hagerstown",Hagerstown,Maryland,21740,East
+"36116,Montgomery",Montgomery,Alabama,36116,South
+"6824,Fairfield",Fairfield,Connecticut,6824 ,East
+"80501,Longmont",Longmont,Colorado,80501,West
+"80634,Greeley",Greeley,Colorado,80634,West
+"55113,Roseville",Roseville,Minnesota,55113,Central
+"92307,Apple Valley",Apple Valley,California,92307,West
+"39401,Hattiesburg",Hattiesburg,Mississippi,39401,South
+"92020,El Cajon",El Cajon,California,92020,West
+"48310,Sterling Heights",Sterling Heights,Michigan,48310,Central
+"84020,Draper",Draper,Utah,84020,West
+"91911,Chula Vista",Chula Vista,California,91911,West
+"78664,Round Rock",Round Rock,Texas,78664,Central
+"42071,Murray",Murray,Kentucky,42071,South
+"47201,Columbus",Columbus,Indiana,47201,Central
+"33319,Tamarac",Tamarac,Florida,33319,South
+"94591,Vallejo",Vallejo,California,94591,West
+"94110,San Francisco",San Francisco,California,94110,West
+"31088,Warner Robins",Warner Robins,Georgia,31088,South
+"33311,Fort Lauderdale",Fort Lauderdale,Florida,33311,South
+"22204,Arlington",Arlington,Virginia,22204,South
+"2038,Franklin",Franklin,Massachusetts,2038 ,East
+"76017,Arlington",Arlington,Texas,76017,Central
+"90008,Los Angeles",Los Angeles,California,90008,West
+"2920,Cranston",Cranston,Rhode Island,2920 ,East
+"3301,Concord",Concord,New Hampshire,3301 ,East
+"58103,Fargo",Fargo,North Dakota,58103,Central
+"4401,Bangor",Bangor,Maine,4401 ,East
+"97301,Salem",Salem,Oregon,97301,West
+"11757,Lindenhurst",Lindenhurst,New York,11757,East
+"98002,Auburn",Auburn,Washington,98002,West
+"13501,Utica",Utica,New York,13501,East
+"60610,Chicago",Chicago,Illinois,60610,Central
+"61701,Bloomington",Bloomington,Illinois,61701,Central
+"36608,Mobile",Mobile,Alabama,36608,South
+"62301,Quincy",Quincy,Illinois,62301,Central
+"19901,Dover",Dover,Delaware,19901,East
+"37075,Hendersonville",Hendersonville,Tennessee,37075,South
+"29483,Summerville",Summerville,South Carolina,29483,South
+"75051,Grand Prairie",Grand Prairie,Texas,75051,Central
+"84043,Lehi",Lehi,Utah,84043,West
+"60174,Saint Charles",Saint Charles,Illinois,60174,Central
+"10024,New York City",New York City,New York,10024,East
+"33614,Tampa",Tampa,Florida,33614,South
+"14215,Buffalo",Buffalo,New York,14215,East
+"60653,Chicago",Chicago,Illinois,60653,Central
