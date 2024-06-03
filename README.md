@@ -1,6 +1,6 @@
 # Projet ETL avec Docker, PostgreSQL, pgAdmin et JupyterLab
 
-Ce projet propose une configuration Docker pour exécuter un processus ETL (Extract, Transform, Load) sur des données de vente de la base de données SuperStore. Le processus ETL extrait les données d'un fichier CSV, les transforme selon les besoins et les charge dans une base de données PostgreSQL. Il utilise également pgAdmin pour gérer la base de données via une interface web et JupyterLab pour explorer et visualiser les données.
+Ce projet propose une configuration Docker pour exécuter un processus ETL (Extract, Transform, Load) sur des données de ventes de la base de données SuperStore. Le processus ETL extrait les données d'un fichier CSV, les transforme selon les besoins et les charge dans une base de données PostgreSQL. Il utilise également pgAdmin pour gérer la base de données via une interface web et JupyterLab pour explorer et visualiser les données.
 
 ## Prérequis
 
@@ -67,39 +67,39 @@ superstore-project/
 
 ## Contenu du Projet
 
-- **data/** : Contient le fichier CSV contenant les données de vente.
-- **etl/** : Contient le script ETL et son Dockerfile.
-    - `Dockerfile` : Fichier Dockerfile pour construire l'image Docker du service ETL.
-    - `etl.py` : Script Python exécutant le processus ETL.
-    - `requirments.txt` : Fichier texte pour spécifier les dépendances et les packages Python nécessaires au projet.
-- **images/** : Contient les images utilisées dans le README.md.
+- **data/** : contient le fichier CSV contenant les données de vente.
+- **etl/** : contient le script ETL et son Dockerfile.
+    - `Dockerfile` : fichier Dockerfile pour construire l'image Docker du service ETL.
+    - `etl.py` : script Python exécutant le processus ETL.
+    - `requirments.txt` : fichier texte pour spécifier les dépendances et les packages Python nécessaires au projet.
+- **images/** : contient les images utilisées dans le README.md.
     - `erd.png` : Entity Relationship Diagram (ERD) illustrant la structure des tables de la base de données SuperStore.
-- **notebooks/** : Pour contenir les fichiers notebooks pour les analyses et visualisations des données. 
-- **docker-compose.yml** : Fichier de configuration Docker définissant les services et leurs paramètres.
-- **.env** : Fichier stockant les variables d'environnement pour la configuration de la base de données où chaque ligne contient une variable suivie de sa valeur.
-- **README.md** : Ce fichier fournissant des instructions sur la configuration et l'utilisation du projet.
+- **notebooks/** : pour contenir les fichiers notebooks pour les analyses et visualisations des données. 
+- **docker-compose.yml** : fichier de configuration Docker définissant les services et leurs paramètres.
+- **.env** : fichier stockant les variables d'environnement pour la configuration de la base de données où chaque ligne contient une variable suivie de sa valeur.
+- **README.md** : fichier fournissant des instructions sur la configuration et l'utilisation du projet.
 
 ## Utilisation
 
 1. Connectez-vous à pgAdmin en suivant les instructions d'identification suivantes :
 
     - **Connexion à pgAdmin :**
-        - **Email** : Utilisez l'adresse email que vous avez spécifiée pour pgAdmin dans le fichier `.env`.
-        - **Mot de passe** : Utilisez le mot de passe que vous avez spécifié pour pgAdmin dans le fichier `.env`.
+        - **Email** : utilisez l'adresse email que vous avez spécifiée pour pgAdmin dans le fichier `.env`.
+        - **Mot de passe** : utilisez le mot de passe que vous avez spécifié pour pgAdmin dans le fichier `.env`.
 
-    - **Enregistrer un nouveau serveur :**
+    - **Enregistrez un nouveau serveur :**
         - Faites un clic droit sur "Servers" > "Register" > "Server..."
 
-    - **Configurer le serveur :**
+    - **Configurez le serveur :**
         - **Onglet "General" :**
-            - **Name** : Entrez un nom pour le serveur, par exemple : `PostgreSQL`.
+            - **Name** : entrez un nom pour le serveur, par exemple : `PostgreSQL`.
         - **Onglet "Connection" :**
-            - **Host name/address** : Utilisez le nom du service Docker PostgreSQL défini dans le fichier `docker-compose.yml`. Par exemple, `db` si votre service PostgreSQL est nommé `db`.
+            - **Host name/address** : utilisez le nom du service Docker PostgreSQL défini dans le fichier `docker-compose.yml`. Par exemple, `db` si votre service PostgreSQL est nommé `db`.
             - **Port** : 5432
-            - **Maintenance database** : Utilisez le nom de la base de données que vous avez spécifié dans le fichier `.env`.
-            - **Username** : Utilisez le nom d'utilisateur que vous avez spécifié dans le fichier `.env`.
-            - **Password** : Utilisez le mot de passe que vous avez spécifié dans le fichier `.env`.
-            - **Save password?** : Cochez cette case pour enregistrer le mot de passe.
+            - **Maintenance database** : utilisez le nom de la base de données que vous avez spécifié dans le fichier `.env`.
+            - **Username** : utilisez le nom d'utilisateur que vous avez spécifié dans le fichier `.env`.
+            - **Password** : utilisez le mot de passe que vous avez spécifié dans le fichier `.env`.
+            - **Save password?** : cochez cette case pour enregistrer le mot de passe.
 
     - **Enregistrez les paramètres :**
         - Cliquez sur "Save".
@@ -141,8 +141,8 @@ L'Entity Relationship Diagram (ERD) ci-dessous illustre la structure des tables 
 
 ![ERD](images/erd.png)
 
-- **orders** : Table principale contenant les informations sur les commandes.
-- **customers** : Table contenant les informations sur les clients.
-- **product** : Table contenant les informations sur les produits.
-- **sales_team** : Table contenant les informations sur l'équipe de vente.
-- **location** : Table contenant les informations sur les emplacements.
+- **orders** : table principale contenant les informations sur les commandes.
+- **customers** : table contenant les informations sur les clients.
+- **product** : table contenant les informations sur les produits.
+- **sales_team** : table contenant les informations sur l'équipe de vente.
+- **location** : table contenant les informations sur les emplacements.
