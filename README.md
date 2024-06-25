@@ -7,7 +7,7 @@ Ce projet propose une configuration Docker pour exécuter un processus ETL (Extr
 - Docker installé sur votre système. [Guide d'installation Docker](https://docs.docker.com/get-docker/)
 - Un navigateur web pour accéder aux interfaces utilisateur (pgAdmin et JupyterLab).
 
-## Structure du Répertoire
+## Structure du répertoire
 
 ```
 superstore-project/
@@ -65,7 +65,7 @@ superstore-project/
     - **pgAdmin** : [http://localhost:8080](http://localhost:8080)
     - **JupyterLab** : [http://localhost:8888](http://localhost:8888)
 
-## Contenu du Projet
+## Contenu du projet
 
 - **data/** : contient le fichier CSV contenant les données de vente.
 - **etl/** : contient le script ETL et son Dockerfile.
