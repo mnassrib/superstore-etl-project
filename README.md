@@ -10,7 +10,7 @@ Ce projet propose une configuration Docker pour exécuter un processus ETL (Extr
 ## Structure du répertoire
 
 ```
-superstore-project/
+superstore-etl-project/
 ├── data/
 │   └── SuperStoreData.csv
 ├── etl/
@@ -30,7 +30,7 @@ superstore-project/
 1. Clonez ce dépôt sur votre machine :
 
     ```bash
-    git clone https://github.com/mnassrib/superstore-project.git
+    git clone https://github.com/mnassrib/superstore-etl-project.git
     cd superstore-project
     ```
 
